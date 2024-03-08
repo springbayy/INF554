@@ -1,0 +1,12 @@
+The main file to be run is the jupyter notebook named GNN_INF554.ipynb.
+It depends on the functions in the python files in the folder named "functions".
+It is a neural network with convolution, so running it on a GPU is highly recommended,
+and it is made such, that it can be run in Google Colab, so one can utillize the 
+GPU there. 
+
+
+Placement of data:
+- training_labels.json should be placed in the same folder as GNN_INF554.ipynb, i.e.
+  the outermost folder.
+- test data should be placed in the folder "test"
+- training data should be placed in the folder "training"
